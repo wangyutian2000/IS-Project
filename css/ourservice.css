@@ -1,0 +1,196 @@
+/*Developer:Yutian Wang ,IS-117-004.Spring 2021*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align: center;
+}
+
+
+/*=======================Nav=======================================*/
+.navbar{
+    background:rgba(62, 162, 238,0.64) ;
+height: 85px;
+    width: 100%;
+position: fixed;
+
+}
+
+
+
+
+.navbar p{
+    font-family: Impact,Charcoal,sans-serif;
+    color: white;
+    font-size: 24px;
+    line-height: 55px;
+    float:left;
+    padding:20px 40px;
+}
+.navbar ul {
+    float: left;
+}
+
+.navbar ul li{
+    float:left;
+    list-style:none;
+
+}
+.navbar ul li a {
+    display:block;
+    font-family: Georgia;
+    color: whitesmoke;
+    font-size: 20px;
+    padding:33px 50px 15px;
+    text-decoration: none;
+}
+
+.navbar ul li ul{
+    display: none;
+    position: absolute;
+    background-color:rgba(62, 162, 238,0.64) ;
+    padding:6px 15px ;
+float: none;
+}
+.navbar ul li a:hover {
+    font-style: italic;
+    color: aqua;
+}
+.navbar ul li:hover >ul{
+    display: block;
+}
+.navbar ul li ul li a{
+    padding:15px 50px;
+
+}
+
+.navbar ul li ul li a:hover{
+    background-color: #0088a9;
+    font-style:italic;
+    color: aqua;
+    text-decoration: none;
+
+}
+
+.search{
+    list-style: none;
+}
+.search input{
+    margin-top: 25px;
+    margin-bottom: 14px;
+    padding:10px 17px;
+    border-color: #0088a9;
+    margin-left: 100px;
+
+
+}
+
+.guer button{
+    padding:10px 25px;
+    background-color:greenyellow ;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-top: 25px;
+    margin-bottom: 14px;
+    margin-left:15px ;
+}
+
+.guer button:hover{
+    background-color: green;
+}
+
+
+
+
+/*====================================================footer================================================================*/
+.xiba p{
+    color:white;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+}
+.xiba p a{
+    text-decoration: none;
+    color:aqua;
+
+}
+.xiba p a:hover{
+    color: mediumpurple;
+    font-weight: bold;
+}
+
+.xiba{
+
+    height: 30px;
+background:darkblue;
+width: 100%;
+
+
+}
+
+/*================================================box========================================================*/
+main{
+    background-image: url(../img/background.jpg);
+    width: 100%;
+    height: auto;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.dnm{
+    padding: 30px 100px;
+    border-radius: 25px;
+    background-color: white;
+
+
+    box-sizing: border-box;
+
+
+
+
+
+    background-image: linear-gradient(175deg, rgba(0,0,0,0) 95%, #8da389 95%),
+    linear-gradient( 85deg, rgba(0,0,0,0) 95%, #8da389 95%),
+    linear-gradient(175deg, rgba(0,0,0,0) 90%, #b4b07f 90%),
+    linear-gradient( 85deg, rgba(0,0,0,0) 92%, #b4b07f 92%),
+    linear-gradient(175deg, rgba(0,0,0,0) 85%, #c5a68e 85%),
+    linear-gradient( 85deg, rgba(0,0,0,0) 89%, #c5a68e 89%),
+    linear-gradient(175deg, rgba(0,0,0,0) 80%, #ba9499 80%),
+    linear-gradient( 85deg, rgba(0,0,0,0) 86%, #ba9499 86%),
+    linear-gradient(175deg, rgba(0,0,0,0) 75%, #9f8fa4 75%),
+    linear-gradient( 85deg, rgba(0,0,0,0) 83%, #9f8fa4 83%),
+    linear-gradient(175deg, rgba(0,0,0,0) 70%, #74a6ae 70%),
+    linear-gradient( 85deg, rgba(0,0,0,0) 80%, #74a6ae 80%);
+}
+.wddnm{
+
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+
+
+.dd{
+    padding: 30px 10px 10px 10px;
+    border-radius: 25px;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+
+.ctmd2{
+    background-color: rgba(234, 248, 250, 0.53);
+    border-radius: 20px;
+}
+

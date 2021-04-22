@@ -1,0 +1,206 @@
+/*Developer:Yutian Wang ,IS-117-004.Spring 2021*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align: center;
+}
+
+
+/*=======================Nav=======================================*/
+.navbar{
+    background:rgba(62, 162, 238,0.64) ;
+height: 85px;
+    width: 100%;
+position: fixed;
+
+}
+
+
+
+
+.navbar p{
+    font-family: Impact,Charcoal,sans-serif;
+    color: white;
+    font-size: 24px;
+    line-height: 55px;
+    float:left;
+    padding:20px 40px;
+}
+.navbar ul {
+    float: left;
+}
+
+.navbar ul li{
+    float:left;
+    list-style:none;
+
+}
+.navbar ul li a {
+    display:block;
+    font-family: Georgia;
+    color: whitesmoke;
+    font-size: 20px;
+    padding:33px 50px 15px;
+    text-decoration: none;
+}
+
+.navbar ul li ul{
+    display: none;
+    position: absolute;
+    background-color:rgba(62, 162, 238,0.64) ;
+    padding:6px 15px ;
+float: none;
+}
+.navbar ul li a:hover {
+    font-style: italic;
+    color: aqua;
+}
+.navbar ul li:hover >ul{
+    display: block;
+}
+.navbar ul li ul li a{
+    padding:15px 50px;
+
+}
+
+.navbar ul li ul li a:hover{
+    background-color: #0088a9;
+    font-style:italic;
+    color: aqua;
+    text-decoration: none;
+
+}
+
+.search{
+    list-style: none;
+}
+.search input{
+    margin-top: 25px;
+    margin-bottom: 14px;
+    padding:10px 17px;
+    border-color: #0088a9;
+    margin-left: 100px;
+
+
+}
+
+.guer button{
+    padding:10px 25px;
+    background-color:greenyellow ;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-top: 25px;
+    margin-bottom: 14px;
+    margin-left:15px ;
+}
+
+.guer button:hover{
+    background-color: green;
+}
+
+
+
+
+/*====================================================footer================================================================*/
+.xiba p{
+    color:white;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+}
+.xiba p a{
+    text-decoration: none;
+    color:aqua;
+
+}
+.xiba p a:hover{
+    color: mediumpurple;
+    font-weight: bold;
+}
+
+.xiba{
+
+    height: 30px;
+background:darkblue;
+width: 100%;
+
+
+}
+
+/*================================================box========================================================*/
+main{
+    background-image: url(../img/background.jpg);
+    width: 100%;
+    height: auto;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.dnm{
+    padding: 150px 100px;
+
+    height: auto;
+    background-color: rgba(234, 248, 250, 0.53);
+
+    margin-left:200px ;
+    margin-right: 200px;
+
+}
+
+
+textarea{
+    color: darkgrey;
+}
+.address img{
+float: left;
+    border-radius: 25px;
+    height: 190px;
+    width:450px;
+margin-top: 20px;
+
+}
+
+.address{
+    border-radius: 25px;
+
+    height: 250px;
+}
+
+.address p{
+padding-left:500px ;
+    padding-top: 20px;
+}
+.dnm p{
+   text-align: left;
+
+}
+
+.cnmd{
+    width: 100%;
+padding: 90px 100px;
+    background-color:rgba(68, 161, 231, 0.53) ;
+    border-radius: 25px;
+   height:1000px;
+    border:2px solid #0056b3;
+    box-shadow: 5px 7px 0 0 lightslategrey;
+
+}
+.cnmd h1{
+    font-family: Georgia,cursive;
+    color: whitesmoke;
+}
+
+.form{
+    padding-top: 60px;
+}
+
+.cnmd p{
+
+color: snow;
+    text-align: left;
+}
